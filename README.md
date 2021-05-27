@@ -2,7 +2,9 @@
 
 [MEV-geth](https://github.com/flashbots/mev-geth)
 
-You can use this package without installing it in your DAppNode following these instructions:
+## Installation
+
+Clone repository, run `dappnodesdk build` add IPFS hash in DAppNode
 
 ## Extra options
 
