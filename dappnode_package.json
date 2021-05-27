@@ -1,31 +1,23 @@
 {
-  "name": "geth.dnp.dappnode.eth",
-  "version": "0.1.12",
-  "upstreamVersion": "v1.10.3",
-  "upstreamRepo": "ethereum/go-ethereum",
+  "name": "mevgeth.dnp.dappnode.eth",
+  "version": "0.1.0",
+  "upstreamVersion": "v1.10.3-mev0.2.1",
+  "upstreamRepo": "flashbots/mev-geth",
   "upstreamArg": "UPSTREAM_VERSION",
-  "shortDescription": "Geth is the official Go implementation of the Ethereum protocol.",
-  "description": "Ethereum is a global, open-source platform for decentralized applications where you can write code that controls digital value, runs exactly as programmed, and is accessible anywhere in the world.",
+  "description": "Flashbots is a research and development organization formed to mitigate the negative externalities and existential risks posed by miner-extractable value (MEV) to smart-contract blockchains. We propose a permissionless, transparent, and fair ecosystem for MEV extraction that reinforce the Ethereum ideals.",
   "type": "library",
   "architectures": ["linux/amd64", "linux/arm64"],
   "chain": "ethereum",
   "dockerTimeout": "20min",
-  "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
-  "contributors": [
-    "Mariano Conti (nanexcool) (hhttps://github.com/nanexcool)",
-    "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
-  ],
+  "author": "thame",
   "categories": ["Blockchain"],
   "license": "GLP-3.0",
   "links": {
-    "endpoint": "http://geth.dappnode:8545",
-    "homepage": "https://github.com/dappnode/DAppNodePackage-geth#readme"
+    "endpoint": "http://geth.dappnode:9545",
+    "homepage": "https://github.com/thame/DAppNodePackage-mevgeth"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dappnode/DAppNodePackage-geth.git"
-  },
-  "bugs": {
-    "url": "https://github.com/dappnode/DAppNodePackage-geth/issues"
+    "url": "https://github.com/flashbots/mev-geth.git"
   }
 }
