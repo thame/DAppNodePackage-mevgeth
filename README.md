@@ -1,6 +1,6 @@
 # MEV-Geth DAppNode package
 
-[![MEV-geth]](https://github.com/flashbots/mev-geth)
+[MEV-geth](https://github.com/flashbots/mev-geth)
 
 You can use this package without installing it in your DAppNode following these instructions:
 
