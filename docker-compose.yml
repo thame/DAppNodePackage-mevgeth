@@ -12,8 +12,7 @@ services:
       - "EXTRA_OPTIONS=--http.api eth,net,web3,txpool"
       - SYNCMODE=snap
     ports:
-      - 30303/tcp
-      - 30303/udp
+      - "30304:30303"
     restart: unless-stopped
 volumes:
   geth: {}
