@@ -20,7 +20,8 @@
   "keywords": ["geth", "go-ethereum", "ethereum", "client", "execution"],
   "license": "GPL-3.0",
   "links": {
-    "endpoint": "http://geth.dappnode:8545",
+    "api": "http://geth.dappnode:8545",
+    "api-engine": "http://geth.dappnode:8511",
     "homepage": "https://github.com/dappnode/DAppNodePackage-geth#readme"
   },
   "repository": {
