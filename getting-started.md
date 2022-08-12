@@ -1,4 +1,4 @@
-## Geth (Execution Client)
+## Geth (Executionn Client)
 
 Geth is now ready for the merge!
 
