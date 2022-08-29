@@ -13,8 +13,8 @@ services:
       - P2P_PORT=30304
       - SYNCMODE=snap
     ports:
-      - "30313:30313/tcp"
-      - "30313:30313/udp"
+      - "30304:30304/tcp"
+      - "30304:30304/udp"
     restart: unless-stopped
 volumes:
   geth: {}
