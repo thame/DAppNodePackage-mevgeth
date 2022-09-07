@@ -21,7 +21,7 @@
   "license": "GPL-3.0",
   "links": {
     "api": "http://geth.dappnode:8545",
-    "api-engine": "http://geth.dappnode:8511",
+    "apiEngine": "http://geth.dappnode:8511",
     "homepage": "https://github.com/dappnode/DAppNodePackage-geth#readme"
   },
   "repository": {
