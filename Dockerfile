@@ -6,7 +6,7 @@ COPY jwtsecret.hex /jwtsecret
 
 ENTRYPOINT geth --http --http.addr 0.0.0.0 \
   --http.corsdomain "*" --http.vhosts "*" \
-  --syncmode ${SYNCMODE:-snap} --port ${P2P_PORT} \
+  --syncmode ${SYNCMODE:-snap} --port ${P2P_PORTS} \
   --metrics --metrics.addr 0.0.0.0 \
   --authrpc.addr 0.0.0.0 \
   --authrpc.port 8551 \
