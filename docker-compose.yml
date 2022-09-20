@@ -10,7 +10,7 @@ services:
       - "geth:/root/.ethereum"
     environment:
       - "EXTRA_OPTION=--http.api eth,engine,net,web3,txpool"
-      - P2P_PORT=30403
+      - P2P_PORTS=30403
       - SYNCMODE=snap
     ports:
       - "30403:30403/tcp"
