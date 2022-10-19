@@ -30,5 +30,11 @@
   },
   "bugs": {
     "url": "https://github.com/dappnode/DAppNodePackage-geth/issues"
-  }
+  },
+  "globalEnvs": [
+    {
+      "envs": ["CONSENSUS_CLIENT_MAINNET"],
+      "services": ["geth.dnp.dappnode.eth"]
+    }
+  ]
 }
