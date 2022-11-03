@@ -27,7 +27,7 @@ esac
 JWT=$(cat $JWT_PATH)
 curl -X POST "http://my.dappnode/data-send?key=jwt&data=${JWT}"
 
-exec geth - \
+exec geth \
   --http --http.addr 0.0.0.0 \
   --http.corsdomain "*" \
   --http.vhosts "*" \
