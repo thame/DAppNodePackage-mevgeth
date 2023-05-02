@@ -1,6 +1,6 @@
 {
   "name": "geth.dnp.dappnode.eth",
-  "version": "0.1.38",
+  "version": "0.1.39",
   "upstreamVersion": "v1.11.6",
   "upstreamRepo": "ethereum/go-ethereum",
   "upstreamArg": "UPSTREAM_VERSION",
