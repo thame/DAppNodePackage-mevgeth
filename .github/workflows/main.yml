@@ -24,7 +24,6 @@ jobs:
     name: End to end tests
     steps:
       - uses: actions/checkout@v2
-      - run: nvm use 19.3.0
       - run: npx @dappnode/dappnodesdk@latest github-action test-end-to-end --errorLogsTimeout 120 --healthCheckUrl http://geth.dappnode:8545 --network mainnet
 
   release:
