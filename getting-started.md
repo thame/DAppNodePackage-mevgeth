@@ -1,6 +1,4 @@
-## Geth (Execution Client)
-
-Geth is now ready for the merge!
+# Geth (Execution Client)
 
 There are now two RPC APIs in Execution Clients:
 
